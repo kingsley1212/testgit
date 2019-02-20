@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aaa.myapplication.tong_xl.mail_list_Activity">
+
+    <TextView
+        android:id="@+id/dianji_tv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:text="sdla"
+        android:textColor="@color/color_ff4631"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/dianji_tv1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ff00"
+        android:text="sdla"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f000"
+        android:textSize="25dp"
+       />
+
+    <com.aaa.myapplication.tong_xl.MailView
+        android:id="@+id/mailView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imagev"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
